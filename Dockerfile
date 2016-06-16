@@ -1,5 +1,5 @@
 # Pull base image  
-FROM 192.168.1.112:5000/hqzf
+FROM 192.168.1.112:5000/hqzf:#docker_tag#
   
 MAINTAINER zhanglin "zhanglin@puxtech.com"  
 
