@@ -1,5 +1,5 @@
 # Pull base image  
-FROM #from_docker_registry#:#docker_tag#
+FROM from_docker_registry:docker_tag
   
 MAINTAINER zhanglin "zhanglin@puxtech.com"  
 
