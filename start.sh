@@ -1,1 +1,1 @@
-docker run -d -p 50001:50001 -v /opt/logs/JReuters:/opt/app/JReuters/logs --name JReuters push_docker_registry/docker_repository_name:docker_tag
+docker run -d -p port:50001 -v /opt/logs/appname:/opt/app/appname/logs --name appname push_docker_registry/docker_repository_name:docker_tag
